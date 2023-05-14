@@ -25,7 +25,7 @@ $ emmet-cli --help
 To expand the expression, just specify the expression in first argument.
 
 ```
-$ emmet-cli "ul#nav>li.item$*4>a{Item $}"
+$ emmet-cli "\!>ul#nav>li.item$*4>a{Item $}"
 ```
 
 ```html
