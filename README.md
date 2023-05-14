@@ -20,12 +20,15 @@ $ emmet-cli --help
     -s, --stylesheet  - Stylesheet mode
 ```
 
-## Example
+## Examples
 
 To expand the expression, just specify the expression in first argument.
 
 ```
 $ emmet-cli "ul#nav>li.item$*4>a{Item $}"
+```
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,6 +51,9 @@ To output as a stylesheet instead of a markup document, run with the `-s`, `--st
 
 ```
 $ emmet-cli -s "bd1-s#f.5"
+```
+
+```css
 border: 1px solid rgba(255, 255, 255, 0.5);
 ```
 
@@ -65,9 +71,18 @@ deno install --name emmet-cli --force https://raw.githubusercontent.com/sheepla/
 - [ ] Add a user snippet from a config file and make it configureable
 - [ ] Distribute pre-compiled binaries from GitHub release page
 
+## License
+
+MIT
+
+## Contributing
+
+Welcome any contributing such as adding features, typo fixing, etc.
+
 ## c.f.
 
 - [Emmet](https://emmet.io)
 - [Emmet repo](https://github.com/emmetio/emmet)
 - [Emmet cheat sheet](https://docs.emmet.io/cheat-sheet/)
 - [Deno - Using Node and npm modules](https://deno.com/manual@v1.33.3/node#node-and-npm-modules)
+
