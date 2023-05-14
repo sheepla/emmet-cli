@@ -25,7 +25,7 @@ $ emmet-cli --help
 To expand the expression, just specify the expression in first argument.
 
 ```
-$ emmet-cli "\!>ul#nav>li.item$*4>a{Item $}"
+$ emmet-cli "!>ul#nav>li.item$*4>a{Item $}"
 ```
 
 ```html
@@ -46,6 +46,8 @@ $ emmet-cli "\!>ul#nav>li.item$*4>a{Item $}"
 </body>
 </html>
 ```
+
+*NOTE*: In zsh, the `!` symbol will be expanded, so write `\!` instead.
 
 To output as a stylesheet instead of a markup document, run with the `-s`, `--stylesheet` option.
 
