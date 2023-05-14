@@ -4,6 +4,22 @@
 
 ## Usage
 
+```
+$ emmet-cli --help
+  Usage:   emmet-cli <expr>
+  Version: v0.0.1
+
+  Description:
+
+    A simple command to expand Emmet expression
+
+  Options:
+
+    -h, --help        - Show this help.
+    -V, --version     - Show the version number for this program.
+    -s, --stylesheet  - Stylesheet mode
+```
+
 ## Example
 
 To expand the expression, just specify the expression in first argument.
