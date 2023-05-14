@@ -6,7 +6,7 @@
 
 ## Example
 
-To expand expression, just specify expression in first argument
+To expand the expression, just specify the expression in first argument.
 
 ```
 $ emmet-cli "ul#nav>li.item$*4>a{Item $}"
@@ -51,7 +51,7 @@ deno install --name emmet-cli --force https://raw.githubusercontent.com/sheepla/
 
 ## c.f.
 
-- [Emmet GitHub repository](https://github.com/emmetio/emmet)
-- [Emmet official web page](https://emmet.io)
+- [Emmet](https://emmet.io)
+- [Emmet repo](https://github.com/emmetio/emmet)
 - [Emmet cheat sheet](https://docs.emmet.io/cheat-sheet/)
-
+- [Deno - Using Node and npm modules](https://deno.com/manual@v1.33.3/node#node-and-npm-modules)
