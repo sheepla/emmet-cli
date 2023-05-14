@@ -1,6 +1,7 @@
 # emmet-cli
 
-**emmet-cli** is a command line tool to expand [Emmet](https://emmet.io) expression.
+**emmet-cli** is a command line tool to expand [Emmet](https://emmet.io)
+expression.
 
 ## Usage
 
@@ -47,9 +48,10 @@ $ emmet-cli "!>ul#nav>li.item$*4>a{Item $}"
 </html>
 ```
 
-*NOTE*: In zsh, the `!` symbol will be expanded, so write `\!` instead.
+_NOTE_: In zsh, the `!` symbol will be expanded, so write `\!` instead.
 
-To output as a stylesheet instead of a markup document, run with the `-s`, `--stylesheet` option.
+To output as a stylesheet instead of a markup document, run with the `-s`,
+`--stylesheet` option.
 
 ```
 $ emmet-cli -s "bd1-s#f.5"
@@ -87,4 +89,3 @@ Welcome any contributing such as adding features, typo fixing, etc.
 - [Emmet repo](https://github.com/emmetio/emmet)
 - [Emmet cheat sheet](https://docs.emmet.io/cheat-sheet/)
 - [Deno - Using Node and npm modules](https://deno.com/manual@v1.33.3/node#node-and-npm-modules)
-
